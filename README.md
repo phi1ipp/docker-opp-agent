@@ -22,4 +22,4 @@ phi1ipp/opp-pgsql    | latest             | 1675f10cb207       | 3 hours ago    
 
 CONTAINER ID        |IMAGE               |COMMAND                  |CREATED             |STATUS              |PORTS               |NAMES
 --------------------|--------------------|-------------------------|--------------------|--------------------|---------------------|
-7f2aab473d63        |nmdoh/opp-agent     |"/bin/sh -c 'jre/bin/"   |7 minutes ago       |Up 7 minutes                            |big_ardinghelli
+7f2aab473d63        |nmdoh/opp-agent     |"/bin/sh -c 'jre/bin/"   |7 minutes ago       |Up 7 minutes|                            |big_ardinghelli
