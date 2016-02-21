@@ -24,4 +24,4 @@ CONTAINER ID        |IMAGE               |COMMAND                  |CREATED     
 --------------------|--------------------|-------------------------|--------------------|--------------------|---------------------|
 7f2aab473d63        |nmdoh/opp-agent     |"/bin/sh -c 'jre/bin/"   |7 minutes ago       |Up 7 minutes|                            |agent
 
-* you can control it with _docker stop agent_ or _docker start agent_ later
+* to stop/start it exec _docker stop agent_ or _docker start agent_ later
