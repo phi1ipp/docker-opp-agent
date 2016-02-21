@@ -17,9 +17,11 @@ pgsql/opp-connector  | latest             | 1675f10cb207       | 3 hours ago    
 phi1ipp/opp-pgsql    | latest             | 1675f10cb207       | 3 hours ago        | 921.8 MB
 
 ## Running
-* after the image is created, run it with _docker run -d username/imagename:version_, i.e. **docker run -d phi1ipp/opp-agent**
+* after the image is created, run it with _docker run -d --name=agent username/imagename:version_ , i.e. **docker run -d --name=agent phi1ipp/opp-agent**
 * to verify it's running execute _docker ps_
 
 CONTAINER ID        |IMAGE               |COMMAND                  |CREATED             |STATUS              |PORTS               |NAMES
 --------------------|--------------------|-------------------------|--------------------|--------------------|---------------------|
 7f2aab473d63        |nmdoh/opp-agent     |"/bin/sh -c 'jre/bin/"   |7 minutes ago       |Up 7 minutes|                            |big_ardinghelli
+
+* you can control it with _docker stop agent_ or _docker start agent_ later
