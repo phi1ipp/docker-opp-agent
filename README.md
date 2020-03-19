@@ -9,5 +9,5 @@ Building consists of two stages:
 # Building and running 
 `./build.sh <your domain name> <agent version>`
 
-* `you domain name` - FQDN of your domain, including `.okta.com` or `.oktapreview.com` , or any other domain name
+* `you domain name` - FQDN of your domain, including `.okta.com` or `.oktapreview.com` , or any other domain suffix
 * `agent version` - full version of the agent (01.03.02 at the moment of writing)
